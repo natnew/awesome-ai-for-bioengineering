@@ -4,6 +4,7 @@
   "fallbackRetryDelay": "30s",
   "aliveStatusCodes": [200, 206, 301, 302, 303, 307, 308, 403, 429],
   "ignorePatterns": [
-    { "pattern": "^https://github.com/natnew/awesome-ai-for-bioengineering" }
+    { "pattern": "^https://github.com/natnew/awesome-ai-for-bioengineering" },
+    { "pattern": "^https://www\\.encodeproject\\.org/?$" }
   ]
 }
