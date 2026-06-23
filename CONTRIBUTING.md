@@ -43,3 +43,7 @@ Please:
 - Confirm the link is canonical and the entry contains no unsafe procedural detail.
 
 The maintainer may edit descriptions for clarity, neutrality, and consistency, or decline entries that weaken the list.
+
+## Recognition
+
+Every merged contribution is credited in the [Contributors](README.md#contributors) section, using the [all-contributors](https://allcontributors.org) specification. If you are new, the [good first issue](https://github.com/natnew/awesome-ai-for-bioengineering/labels/good%20first%20issue) label lists scoped, well-defined gaps to pick up.

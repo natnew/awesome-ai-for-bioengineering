@@ -1,0 +1,23 @@
+# Path-based labels applied automatically by .github/workflows/labeler.yml.
+# All curated content lives in README.md, so resource changes are labelled by path.
+
+resource:
+  - changed-files:
+      - any-glob-to-any-file: "README.md"
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: ".github/workflows/**"
+
+meta:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "CONTRIBUTING.md"
+          - "CODE_OF_CONDUCT.md"
+          - "SECURITY.md"
+          - "CLAUDE.md"
+          - "CITATION.cff"
+          - ".github/ISSUE_TEMPLATE/**"
+          - ".github/instructions/**"
+          - ".github/*.md"
+          - ".github/*.yml"

@@ -29,6 +29,7 @@ This list tracks AI engineering resources relevant to bioengineering: the models
 - [Open-Source Tools](#open-source-tools)
 - [Related Awesome Lists](#related-awesome-lists)
 - [Contributing](#contributing)
+- [Contributors](#contributors)
 
 ## Foundations and Surveys
 
@@ -184,4 +185,19 @@ This list tracks AI engineering resources relevant to bioengineering: the models
 
 ## Contributing
 
-Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) and the [safety boundaries](SECURITY.md) before suggesting a resource. One resource per pull request is preferred, with a short note on why it belongs.
+Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) and the [safety boundaries](SECURITY.md) before suggesting a resource. One resource per pull request is preferred, with a short note on why it belongs. New to the list? Start with a [good first issue](https://github.com/natnew/awesome-ai-for-bioengineering/labels/good%20first%20issue).
+
+## Contributors
+
+This list is built and improved by the community, and every contributor is credited here.
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-brightgreen.svg)](#contributors)
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+Recognition is handled with the [all-contributors](https://allcontributors.org) specification. After your contribution is merged, you are added to the list above.
