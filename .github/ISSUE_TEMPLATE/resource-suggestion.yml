@@ -1,0 +1,95 @@
+name: Resource suggestion
+description: Suggest a resource for the Awesome List
+title: "[Resource]: "
+labels: ["resource-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a resource. Please confirm it is canonical, high signal, and within the safety boundary. See CONTRIBUTING.md and SECURITY.md.
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: e.g. ProteinMPNN
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Canonical HTTPS link (repository, paper, documentation, or project page).
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Suggested section
+      options:
+        - Foundations and Surveys
+        - Biological Foundation Models
+        - Protein Language Models
+        - Protein Structure and Function Prediction
+        - Generative Protein Design
+        - Molecular Generation and Drug Discovery
+        - DNA and RNA Modelling
+        - Biomolecular Simulation
+        - AI Agents for Science
+        - Self-Driving Laboratories
+        - Lab Automation and Closed-Loop Systems
+        - Synthetic Biology Tooling
+        - Datasets
+        - Benchmarks and Evaluation
+        - Reproducibility and Validation
+        - Safety, Security, and Responsible Release
+        - Academic Labs and Research Groups
+        - Companies and Platforms
+        - Open-Source Tools
+        - Related Awesome Lists
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options:
+        - Paper
+        - Survey
+        - Repository
+        - Model
+        - Benchmark
+        - Dataset
+        - Tool
+        - Platform
+        - Lab
+        - Company
+        - Awesome list
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why it belongs
+      description: Briefly explain why this resource is high signal and relevant to AI for bioengineering.
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence quality
+      options:
+        - Strong
+        - Moderate
+        - Early
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: The link is the canonical source for this resource.
+          required: true
+        - label: The entry contains no unsafe biological procedural detail.
+          required: true
