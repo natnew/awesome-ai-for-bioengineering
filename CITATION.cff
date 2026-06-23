@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: Awesome AI for Bioengineering
+message: >-
+  If you use this curated list in your work, please cite it
+  using the metadata below.
+type: dataset
+abstract: >-
+  A curated list of high-quality resources on AI for
+  bioengineering, including biological foundation models,
+  protein design, molecular generation, self-driving
+  laboratories, datasets, benchmarks, tooling, and
+  responsible release practices, maintained from an AI
+  engineering perspective.
+repository-code: >-
+  https://github.com/natnew/awesome-ai-for-bioengineering
+keywords:
+  - awesome-list
+  - artificial-intelligence
+  - bioengineering
+  - foundation-models
+  - protein-design
+  - molecular-generation
+  - self-driving-laboratories
+  - benchmarks
+  - responsible-release
+license: MIT

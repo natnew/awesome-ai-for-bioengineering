@@ -1,0 +1,44 @@
+name: Correction
+description: Report a problem with an existing entry
+title: "[Correction]: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this to report dead links, inaccurate descriptions, miscategorised entries, duplicates, or safety concerns. Please do not include unsafe procedural detail in the report.
+  - type: input
+    id: entry
+    attributes:
+      label: Affected entry
+      description: Name of the entry and the section it appears in.
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue type
+      options:
+        - Dead or broken link
+        - Inaccurate description
+        - Wrong section
+        - Duplicate entry
+        - Non-canonical source
+        - Safety boundary concern
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: Describe the fix you propose.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source or evidence
+      description: Link or reference supporting the correction, where relevant.
+    validations:
+      required: false

@@ -1,0 +1,77 @@
+name: repository-health
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check required files exist
+        run: |
+          set -e
+          required=(
+            "README.md"
+            "CONTRIBUTING.md"
+            "LICENSE"
+            "CLAUDE.md"
+            "SECURITY.md"
+            "CODE_OF_CONDUCT.md"
+            "CITATION.cff"
+          )
+          missing=0
+          for f in "${required[@]}"; do
+            if [ ! -f "$f" ]; then
+              echo "::error::Required file missing: $f"
+              missing=1
+            fi
+          done
+          if [ "$missing" -ne 0 ]; then
+            exit 1
+          fi
+          echo "All required files present."
+
+      - name: Check forbidden content directories are absent
+        run: |
+          set -e
+          forbidden=(
+            "docs"
+            "papers"
+            "tools"
+            "datasets"
+            "benchmarks"
+            "notes"
+            "evaluation"
+            "templates"
+            "labs-and-companies"
+          )
+          found=0
+          for d in "${forbidden[@]}"; do
+            if [ -d "$d" ]; then
+              echo "::error::Forbidden content directory present: $d/ (all curated content belongs in README.md)"
+              found=1
+            fi
+          done
+          if [ "$found" -ne 0 ]; then
+            exit 1
+          fi
+          echo "No forbidden content directories found."
+
+      - name: Check curated content lives only in README.md
+        run: |
+          set -e
+          # README.md must be the only top-level curated content list.
+          if [ ! -s "README.md" ]; then
+            echo "::error::README.md is empty."
+            exit 1
+          fi
+          echo "README.md present and non-empty."
