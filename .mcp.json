@@ -1,0 +1,6 @@
+{
+  "name": "awesome-ai-for-bioengineering",
+  "description": "Repository metadata for Copilot CLI / MCP integration. Minimal manifest for agent setup.",
+  "services": {},
+  "env": {}
+}
