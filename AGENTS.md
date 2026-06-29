@@ -1,4 +1,20 @@
-# AGENTS.md
+# Agents
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+## Contents
+
+- [Repository North Star](#repository-north-star)
+- [Agent Role](#agent-role)
+- [Read Order](#read-order)
+- [Repository Facts](#repository-facts)
+- [Scope Rules](#scope-rules)
+- [Safety Boundary (Hard Gate)](#safety-boundary-hard-gate)
+- [Quality Bar](#quality-bar)
+- [README Formatting Rules](#readme-formatting-rules)
+- [Final Response Pattern](#final-response-pattern)
+
+
 
 Operating protocol for AI coding agents working in this repository.
 
