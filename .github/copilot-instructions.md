@@ -6,14 +6,14 @@ Key checks for automated assistants
 
 - Safety boundary: consult SECURITY.md before suggesting entries; never add procedural wet-lab or genetic-manipulation detail.
 - Formatting: single-line bullets in README.md, alphabetical order within sections, HTTPS links, neutral descriptions.
-- CI checks: run `npx awesome-lint .` and `npx markdown-link-check README.md` locally or in CI.
+- CI checks: run `npx awesome-lint` and `npx markdown-link-check README.md` locally or in CI.
 
 Maintenance matrix (change -> required actions)
 
 - README.md entries (add/edit/remove):
   - Ensure single-line bullet format and section placement.
   - Verify link resolves and is canonical.
-  - Run `npx awesome-lint .` and `npx markdown-link-check README.md`.
+  - Run `npx awesome-lint` and `npx markdown-link-check README.md`.
   - Update CONTRIBUTORS/all-contributors list only via the all-contributors workflow.
 
 - CONTRIBUTING.md or SECURITY.md updates:
@@ -30,8 +30,8 @@ Maintenance matrix (change -> required actions)
 
 How to run checks (recommended):
 
-- npm/node present: `npm ci && npx awesome-lint . && npx markdown-link-check README.md`
-- without npm: `npx --yes awesome-lint . && npx --yes markdown-link-check README.md`
+- npm/node present: `npm ci && npx awesome-lint && npx markdown-link-check README.md`
+- without npm: `npx --yes awesome-lint && npx --yes markdown-link-check README.md`
 
 Review guidance for PRs
 
