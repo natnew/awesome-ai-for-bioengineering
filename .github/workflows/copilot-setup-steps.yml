@@ -5,18 +5,18 @@ on:
   pull_request: {}
 
 jobs:
-  setup:
+  copilot-setup-steps:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
       - name: Install dependencies (if present)
         run: |
           if [ -f package.json ]; then npm ci; fi
       - name: Run repo checks
         run: |
-          npx --yes awesome-lint . || true
-          npx --yes markdown-link-check README.md || true
+          npx --yes awesome-lint
+          npx --yes markdown-link-check README.md

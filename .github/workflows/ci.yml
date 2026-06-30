@@ -12,11 +12,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
       - name: Install dependencies (if present)
         run: |
           if [ -f package.json ]; then npm ci; fi
       - name: Run awesome-lint
-        run: npx --yes awesome-lint .
+        run: npx --yes awesome-lint
       - name: Run markdown link check
-        run: npx --yes markdown-link-check README.md || true
+        run: npx --yes markdown-link-check README.md
