@@ -191,7 +191,7 @@ Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) and th
 
 This list is built and improved by the community, and every contributor is credited here.
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-brightgreen.svg)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-brightgreen.svg)]
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
