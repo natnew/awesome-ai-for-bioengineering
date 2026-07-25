@@ -21,7 +21,7 @@ labels: ["suggestion"]
 
 ## Checklist
 
-- [ ] I have read [CONTRIBUTING.md](../CONTRIBUTING.md) and the [safety boundaries](../SECURITY.md)
+- [ ] I have read [CONTRIBUTING.md](../../CONTRIBUTING.md) and the [safety boundaries](../../SECURITY.md)
 - [ ] The link is canonical, HTTPS, and resolves correctly
 - [ ] The resource is not already in the list
 - [ ] The description is neutral, factual, and free of marketing language
