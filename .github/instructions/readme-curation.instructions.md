@@ -3,7 +3,7 @@
 Rules for curating `README.md`, the only content list in this repository.
 
 - Add curated entries to `README.md` only. No other file holds resources.
-- Keep each entry to a single line: `* [Name](https://link) - Neutral, technically precise description.`
+- Keep each entry to a single line: `- [Name](https://link) - Neutral, technically precise description.`
 - Use neutral descriptions. State what the resource is and what it models, predicts, or generates.
 - Prefer canonical sources: GitHub repository, paper (arXiv/DOI), official documentation, institutional or project page.
 - Keep sections and their order consistent with the existing structure.

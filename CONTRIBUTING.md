@@ -20,7 +20,7 @@ Thank you for helping keep this list high quality. This is a curated Awesome Lis
 Add entries to `README.md` only, in the appropriate section, keeping alphabetical order where practical:
 
 ```
-* [Name](https://example.org) - Neutral, technically precise description.
+- [Name](https://example.org) - Neutral, technically precise description.
 ```
 
 Optional plain-text tags may be added where they improve scanability, for example `` `paper` `` `` `model` `` `` `code` ``. Do not over-tag.
