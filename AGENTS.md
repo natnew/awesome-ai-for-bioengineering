@@ -72,7 +72,7 @@ Do not assume the generic awesome-list pattern overrides this repository's exist
 - `README.md` is the primary and only content artefact. All curated resources live there.
 - The README contains an intro, a scope-and-safety note, Contents, the main sections, Contributing, and Contributors.
 - Sections are single-line bullet lists. Match the local format exactly.
-- Entries take the form `* [Name](https://link) - Neutral, technically precise description.`
+- Entries take the form `- [Name](https://link) - Neutral, technically precise description.`
 - Entries are kept in alphabetical order within a section where practical.
 - One resource per pull request is preferred, with a short note on why it belongs.
 - For code, prefer the official GitHub repository over a package registry or marketing page.
@@ -139,7 +139,7 @@ An entry qualifies when all are true:
 - Preserve the existing heading and Contents structure.
 - Preserve the intro, scope-and-safety note, Contributing, and Contributors sections.
 - Add entries to the correct section in alphabetical order where practical.
-- Use the single-line bullet format: `* [Name](https://link) - Description.`
+- Use the single-line bullet format: `- [Name](https://link) - Description.`
 - Use HTTPS and canonical links.
 - Start descriptions with a capital letter and end with a full stop.
 - Do not use title case for descriptions.

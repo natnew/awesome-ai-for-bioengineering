@@ -22,7 +22,7 @@ For each candidate, assess:
 ## Output
 
 - Accept, revise, or reject, with a one-line reason.
-- If accepting, provide the final entry: `* [Name](https://link) - Neutral, technically precise description.`
+- If accepting, provide the final entry: `- [Name](https://link) - Neutral, technically precise description.`
 - Keep descriptions neutral and to one line. Maintain alphabetical order within the section where practical.
 - Never add low-quality resources to fill a section. Quality over coverage.
 - Do not create files outside `README.md`.
