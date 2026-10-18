@@ -181,6 +181,7 @@ This section is growing; contributions of canonical, open resources are welcome.
 - [Johns Hopkins Center for Health Security](https://centerforhealthsecurity.org) - Research centre covering biosecurity and emerging-technology risk.
 - [NTI | bio](https://www.nti.org/about/biosecurity/) - Programme on reducing biological risks, including AI and biosecurity.
 - [Responsible AI x Biodesign](https://responsiblebiodesign.ai) - Community values and commitments for responsible AI protein design.
+- [SynthID Bio](https://doi.org/10.1038/s41586-026-10965-y) - Watermarking methods that embed verifiable provenance signatures in AI-generated protein sequences and structures.
 
 ## Core Libraries and Frameworks
 
@@ -196,6 +197,7 @@ This section is growing; contributions of canonical, open resources are welcome.
 Groups included here maintain open models, tools, or datasets in scope for this list.
 
 - [AlQuraishi Lab](https://www.aqlab.io) - Columbia University group working on machine learning for molecular and systems biology.
+- [Arc Institute](https://arcinstitute.org) - Nonprofit research institute releasing open foundation models for genomics and cell biology.
 - [Debora Marks Lab](https://www.deboramarkslab.com) - Harvard Medical School group on evolutionary sequence modelling and variant effect prediction.
 - [Institute for Protein Design](https://www.ipd.uw.edu) - University of Washington institute (Baker Lab) for computational protein design.
 - [Matter Lab](https://www.matter.toronto.edu) - University of Toronto group (Aspuru-Guzik) on AI for discovery and self-driving labs.
